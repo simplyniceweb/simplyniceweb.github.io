@@ -19,6 +19,9 @@ body {
 .arrows {
     margin-top: 50px;
 }
+i.fa-home:before {
+    color: red;
+}
 
 @media (max-width: 991px) {
     .letters-wrapper img {
