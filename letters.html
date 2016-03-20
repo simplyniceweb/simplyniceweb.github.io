@@ -10,7 +10,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
-    <link href="/css/index.css" rel="stylesheet">
+    <link href="/css/letters.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,19 +21,28 @@
     </head>
 <body>
 
-    <div class="container-fluid">
-        <div class="col-lg-4 col-lg-offset-4 play-btn-wrapper">
-            <h1 class="lets-play text-center">Let's play!</h1>
-            <a href="letters.html" class="btn btn-block btn-warning btn-lg">
-                <i class="fa fa-fw fa-3x fa-play-circle-o"></i>
-            </a>
+    <div class="container-fluid letters-wrapper" data-letter="A">
+        <div class="col-xs-3 col-xs-offset-3">
+            <img src="/img/letters/Letter-A.png" class="img-responsive">
+        </div>
+        <div class="col-xs-6 forletters">
+            <img src="/img/forletters/for-A.png" class="img-responsive">
+        </div>
+
+        <div class="col-xs-12 arrows">
+            <div class="col-xs-4 col-xs-offset-2">
+                <button class="btn btn-success btn-block btn-lg"><i class="fa fa-fw fa-arrow-left fa-lg"></i> Previous</button>
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-success btn-block btn-lg">Next <i class="fa fa-fw fa-arrow-right fa-lg"></i></button>
+            </div>
         </div>
     </div>
 
     <div class="hide-audio">
-        <audio controls autoplay loop> <!-- autoplay -->
-            <source src="/mp3/Five%20Little%20Ducks.ogg" type="audio/ogg">
-            <source src="/mp3/Five%20Little%20Ducks.mp3" type="audio/mpeg">
+        <audio controls> <!--  autoplay loop -->
+            <source src="/mp3/Wheels%20On%20The%20Bus.ogg" type="audio/ogg">
+            <source src="/mp3/Wheels%20On%20The%20Bus.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>

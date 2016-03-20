@@ -1,0 +1,21 @@
+body {
+    background: url("/img/letters-bg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.letters-wrapper {
+    margin-top: 180px;
+}
+
+.forletters img {
+    max-width: 256px;
+    max-height: 256px;
+    width: auto;
+    height: auto;
+}
+.arrows {
+    margin-top: 50px;
+}
