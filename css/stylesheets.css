@@ -1,0 +1,19 @@
+html, body {
+    background: url("/img/bg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.play-btn-wrapper {
+    margin-top: 330px;
+}
+.play-btn-wrapper .lets-play {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hide-audio {
+    display: none;
+}
